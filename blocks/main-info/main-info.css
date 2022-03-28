@@ -1,0 +1,26 @@
+.main-info {
+  max-width: 984px;
+  display: flex;
+  flex-direction: column;
+  margin: 56px auto 0;
+}
+
+@media (max-width: 1024px) {
+  .main-info {
+    max-width: 928px;
+    margin-top: 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-info {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 320px) {
+  .main-info {
+    max-width: 320px;
+  }
+}
+

@@ -7,4 +7,4 @@
 * grid layout
 * адаптивная верстка 
 
-git@github.com:telmeneva/russian-travel.git
+https://telmeneva.github.io/russian-travel/index.html

@@ -9,9 +9,15 @@
   color: #FFFFFF;
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 768px) {
+.main-info__title {
+  font-size: 45px;
+  line-height: 1.1;
+  }
+}
+
+@media screen and (max-width: 320px) {
   .main-info__title {
-    max-width: 288px;
     margin-bottom: 16px;
     font-size: 40px;
     line-height: 1.1;

@@ -1,31 +1,7 @@
 .main-info__image {
-  max-width: 984px;
-  height: 615px;
-  margin-top: 0;
-  margin-right: auto;
-  margin-left: auto;
   margin-bottom: 8px;
+  object-fit: cover;
 }
 
-@media (max-width: 1024px) {
-  .main-info__image {
-    max-width: 928px;
-    height: 580px;
-  }
-}
-
-@media (max-width: 768px) {
-  .main-info__image {
-    max-width: 786px;
-    height: 480px;
-  }
-}
-
-@media (max-width: 320px) {
-  .main-info__image {
-    max-width: 320px;
-    height: 200px;
-  }
-}
 
  

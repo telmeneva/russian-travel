@@ -5,9 +5,10 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
   gap: 16px;
+  justify-content: center;
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .gallery {
     max-width: 928px;
     grid-template-columns: repeat(3, 1fr);
@@ -16,7 +17,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .gallery {
     max-width: 720px;
     margin-top: 88px;
@@ -26,7 +27,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .gallery {
     max-width: 288px;
     margin-top: 64px;

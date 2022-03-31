@@ -1,26 +1,19 @@
 .main-info {
-  max-width: 984px;
   display: flex;
   flex-direction: column;
-  margin: 56px auto 0;
+  margin-top: 56px;
+  box-sizing: border-box;
 }
 
-@media (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .main-info {
-    max-width: 928px;
+    width: 928px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .main-info {
     margin-top: 48px;
   }
 }
-
-@media (max-width: 768px) {
-  .main-info {
-    max-width: 768px;
-  }
-}
-
-@media (max-width: 320px) {
-  .main-info {
-    max-width: 320px;
-  }
-}
-

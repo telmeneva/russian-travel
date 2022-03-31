@@ -1,6 +1,5 @@
 .cover__title {
   max-width: 560px;
-  height: 152px;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -12,19 +11,19 @@
   position: relative;
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .cover__title {
     margin-top: 245px;
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .cover__title {
     margin-top: 115px;
   }
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .cover__title {
     margin-top: 33px;
     font-size: 32px;

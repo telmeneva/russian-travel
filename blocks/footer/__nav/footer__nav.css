@@ -1,9 +1,12 @@
 .footer__nav {
   display: flex;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
 @media screen and (max-width: 600px) {
   .footer__nav {
-      flex-direction: column;
+    flex-direction: column;
+    align-content: flex-start;
   }
 }

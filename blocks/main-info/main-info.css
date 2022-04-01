@@ -1,19 +1,26 @@
 .main-info {
   display: flex;
   flex-direction: column;
-  margin-top: 56px;
   box-sizing: border-box;
+  max-width: 984px;
+  margin: 0 auto;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1200px) {
   .main-info {
-    width: 928px;
+    max-width: 928px;
     margin: 0 auto;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .main-info {
-    margin-top: 48px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .main-info {
+    max-width: 320px;
   }
 }

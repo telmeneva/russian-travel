@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 1024px) {
   .place {
-    max-width: 720px;
+    max-width: 928px;
     column-gap: 28px;
     margin-bottom: 72px;
   }
@@ -17,9 +17,19 @@
 
 @media screen and (max-width: 768px) {
   .place {
+  margin-left: 24px;
+  margin-right: 24px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .place {
+    margin-left: 0;
+    margin-right: 0;
     max-width: 100%;
     display: flex;
     flex-direction: column;
     margin-bottom: 50px;
+    gap: 32px;
   }
 }

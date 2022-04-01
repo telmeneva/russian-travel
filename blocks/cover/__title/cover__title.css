@@ -22,14 +22,7 @@
     margin-top: 115px;
   }
 }
-
 @media screen and (max-width: 500px) {
-  .cover__title {
-    margin-top: 60px;
-  }
-}
-
-@media screen and (max-width: 320px) {
   .cover__title {
     width: 288px;
     margin-top: 33px;

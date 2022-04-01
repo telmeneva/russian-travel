@@ -8,8 +8,9 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
   .places {
     margin-top: 64px;
+    margin-bottom: 64px;
   }
 }

@@ -22,7 +22,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
   .cover__text {
     margin-bottom: 33px;
     font-size: 14px;

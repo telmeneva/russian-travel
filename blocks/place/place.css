@@ -11,7 +11,7 @@
   .place {
     max-width: 928px;
     column-gap: 28px;
-    margin-bottom: 72px;
+    margin-bottom: 92px;
   }
 }
 
@@ -19,6 +19,7 @@
   .place {
   margin-left: 24px;
   margin-right: 24px;
+  margin-bottom: 90px;
   }
 }
 
@@ -29,7 +30,7 @@
     max-width: 100%;
     display: flex;
     flex-direction: column;
-    margin-bottom: 50px;
+    margin-bottom: 66px;
     gap: 32px;
   }
 }

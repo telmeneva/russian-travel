@@ -14,6 +14,10 @@
     font-size: 42px;
     line-height: 1.1;
   }
+
+  .place__title:first-child {
+     max-width: 330px;
+  }
 }
 
 @media (max-width: 500px) {

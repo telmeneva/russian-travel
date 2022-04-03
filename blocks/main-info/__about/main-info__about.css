@@ -10,9 +10,14 @@
   margin: 8px 0 0;
 }
 
-@media screen and (max-width:940px) {
+@media screen and (max-width: 940px) {
+  .main-info__about {
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 500px) {
   .main-info__about {
     margin-left: 16px;
   }
-  
 }

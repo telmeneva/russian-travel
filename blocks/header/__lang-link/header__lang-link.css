@@ -4,10 +4,11 @@
   text-decoration: none;
   color: white;
   transition: opacity 0.2s;
+  margin-right: 18px;
 }
     
-.header__lang-link:first-of-type {
-  margin-right: 18px;
+.header__lang-link:last-of-type {
+  margin-right: 0;
 }
     
 .header__lang-link:hover {
